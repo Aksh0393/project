@@ -28,7 +28,7 @@ const guestRoutes = require('./routes/guestRoutes');
 
 
 app.get('/', (req, res) => {
-    res.send('Home Page');
+    res.redirect('/guests');
 });
 
 
