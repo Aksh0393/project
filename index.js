@@ -14,17 +14,6 @@ mongoose.connect(process.env.MONGO_URL)
 
 
 
-// const { MongoClient } = require('mongodb');
-// const uri = "mongodb+srv://aksh0393:skadoosh@123@cluster0.iukm3.mongodb.net/guest?retryWrites=true&w=majority";
-// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-// client.connect((err,data) => {
-//    if(err)
-//     console.log(err);
-//     console.log(data);
-
-// });
-
-
 
 
 
